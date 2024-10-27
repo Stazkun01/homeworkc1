@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <windows.h>
 struct registrationdates{
 int day;
@@ -29,6 +28,8 @@ int main(){
     scanf("%d" , &date.month);
     printf("entrer le jour de naissance : ");
     scanf("%d" , &date.day);
+   printf("user registred successfully !");
+    Sleep(2500);
     system("cls");
     printf("bonjour %s \n" ,user.firstname);
     printf("entrer la note de linux : ");
@@ -80,6 +81,42 @@ int main(){
         printf("la note doit etre positive et inferieur a 20 !\n");
         printf("entrer la note de communication : ");
         scanf("%f" , &com);}
+    system("cls");
+    printf("                                  LOADING | ");
+    Sleep(200);
+    system("cls");
+    printf("                                  LOADING / ");
+    Sleep(200);
+    system("cls");
+    printf("                                  LOADING - ");
+    Sleep(200);
+    system("cls");
+    printf("                                  LOADING \\ ");
+    Sleep(200);
+    system("cls");
+    printf("                                  LOADING | ");
+    Sleep(200);
+    system("cls");
+    printf("                                  LOADING / ");
+    Sleep(200);
+    system("cls");
+    printf("                                  LOADING - ");
+    Sleep(200);
+    system("cls");
+    printf("                                  LOADING \\ ");
+    Sleep(200);
+    system("cls");
+    printf("                                  LOADING | ");
+    Sleep(200);
+    system("cls");
+    printf("                                  LOADING / ");
+    Sleep(200);
+    system("cls");
+    printf("                                  LOADING - ");
+    Sleep(200);
+    system("cls");
+    printf("                                  LOADING \\ ");
+    Sleep(200);
     system("cls");
     printf(" \n Nom : %s               Prenom : %s               Adreess email : %s \n" , user.lastname , user.firstname , user.adress);
     printf(" Date de naissance : %02d/%02d/%02d \n\n\n" , date.day , date.month , date.year);
